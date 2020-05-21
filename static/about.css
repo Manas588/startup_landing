@@ -1,0 +1,79 @@
+body {
+    /* background: rgb(9, 53, 90); */
+    background: linear-gradient(to bottom, rgb(0, 0, 0),rgb(43, 42, 42), rgb(49, 49, 49)) fixed;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+.nav {
+
+    height: 91vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   background: linear-gradient(to bottom, rgb(0, 0, 0),rgb(43, 42, 42), rgb(49, 49, 49)) fixed;
+    /* linear-gradient(to right bottom, #011830, #111549, #16326b, #0e487e, #0b4275); */
+    
+   
+}
+hr {
+	background-color: #fe5011;
+	height: 2px;
+	border-radius: 2px;
+	width: 50px;
+}
+.navbut {
+    
+    height: 6vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.btn-primary {
+	
+	background-color: #fe5011;
+	border-color: #fe5011;
+}
+.btn-primary:hover {
+	background-color: #fe5011;
+	border-color: #fe5011;
+	
+}
+.cardholder {
+    
+    position: fixed;
+    top: 36%;
+    right: 10%;
+    left: 10%;
+    z-index: -1;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    height: 65%;
+
+}
+a {
+    text-decoration: none;
+    color:whitesmoke;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+a:hover {
+    text-decoration: none;
+    color:whitesmoke;
+}
+.navitems {
+    font-size: 30px;
+    font-weight: 100;
+    color: #999;
+}
+.navitems:hover {
+    text-decoration: none;
+    color: #999;
+}

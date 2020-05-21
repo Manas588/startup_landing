@@ -1,0 +1,92 @@
+body {
+    /* background: rgb(9, 53, 90); */
+    background: url(header.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+}
+a {
+    text-decoration: none;
+    color:whitesmoke;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+a:hover {
+    text-decoration: none;
+    color:whitesmoke;
+}
+
+.nav {
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, rgb(0, 0, 0),rgb(43, 42, 42), rgb(49, 49, 49)) fixed;
+    /* linear-gradient(to right bottom, #011830, #111549, #16326b, #0e487e, #0b4275); */
+    
+   
+}
+
+.navbut {
+  
+    height: 6vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.typewriter {
+    width: 100vw;
+    position: fixed;
+    top: 27vh;
+    text-align: center;
+    z-index: -1;
+}
+.navitems {
+    font-size: 30px;
+    font-weight: 100;
+    color: #999;
+}
+.navitems:hover {
+    text-decoration: none;
+    color: #999;
+}
+
+.btn-primary {
+	border-radius: 30px;
+	background-color: #fe5011;
+    border-color: #fe5011;
+    font-size: 30px;
+}
+.btn-primary:hover {
+	background-color: #fe3001;
+	border-color: #fe3001;
+	border-width: 3px;
+}
+hr {
+	background-color: #fe5011;
+	height: 2px;
+	border-radius: 2px;
+	width: 50px;
+}
+.buffer {
+	height: 8rem;
+}
+
+form {
+  
+    width: 400px;
+    height: 500px;
+   
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
